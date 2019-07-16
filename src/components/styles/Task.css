@@ -1,0 +1,19 @@
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient(90deg,#243b55, #2b5876  )
+}
+.task-title:hover,
+.icono:hover{
+    cursor: pointer;
+}
+.icono:hover{
+    transition: 0.3s;
+    transform: scale(1.3)
+}
+
+.task-title{
+    user-select: none;
+}
